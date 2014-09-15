@@ -80,7 +80,11 @@
     if(opts && opts.url) {
       url = opts.url;
     } else {
-      url = _.isFunction(instance.url) ? instance.url() : instance.url;
+      try {
+        url = _.isFunction(instance.url) ? instance.url() : instance.url;
+      } catch (e) {
+        // ignore the error thrown by backbone, if there is no `url`
+      }
     }
 
     // Need url to use as cache key so return if we can't get it
