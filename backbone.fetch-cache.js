@@ -114,6 +114,9 @@
       expires = (new Date()).getTime() + ((opts.expires || 5 * 60) * 1000);
     }
 
+    // Don't cache empty result list (this often represents an error, don't cache error results)
+    if(attrs && attrs.length === 0) { return; }
+
     Backbone.fetchCache._cache[key] = {
       expires: expires,
       value: attrs
