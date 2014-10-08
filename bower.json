@@ -1,6 +1,6 @@
 {
   "name": "backbone-fetch-cache",
-  "version": "1.4.0-patched",
+  "version": "1.4.0b",
   "homepage": "https://github.com/cschaba/backbone-fetch-cache",
   "authors": [
     "Carsten Schabacker <carsten@s10r.de>"
