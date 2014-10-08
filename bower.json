@@ -1,9 +1,9 @@
 {
   "name": "backbone-fetch-cache",
-  "version": "1.4.0",
-  "homepage": "https://github.com/madglory/backbone-fetch-cache",
+  "version": "1.4.0-patched",
+  "homepage": "https://github.com/cschaba/backbone-fetch-cache",
   "authors": [
-    "Andrew Appleton <hello@floatleft.com>"
+    "Carsten Schabacker <carsten@s10r.de>"
   ],
   "description": "Caching for Backbone's fetch method",
   "main": "backbone.fetch-cache.js",
