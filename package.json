@@ -1,7 +1,7 @@
 {
   "name": "backbone-fetch-cache",
-  "version": "1.4.0",
-  "author": "Andy Appleton",
+  "version": "1.4.0-patched",
+  "author": "Carsten Schabacker",
   "description": "Caches calls to Backbone.[Model | Collection].fetch",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/madglory/backbone-fetch-cache.git"
+    "url": "https://github.com/cschaba/backbone-fetch-cache.git"
   },
   "keywords": [
     "backbone",
